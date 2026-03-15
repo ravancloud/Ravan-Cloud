@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravan Cloud - Live Status & Support</title>
+    <style>
+        body { background-color: #000; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin: 0; padding: 20px; }
+        .live-container { max-width: 600px; margin: 50px auto; border: 1px solid #222; border-radius: 15px; padding: 30px; background: #0a0a0a; box-shadow: 0 0 20px rgba(26, 142, 26, 0.2); }
+        h1 { color: #1a8e1a; font-size: 28px; text-transform: uppercase; }
+        
+        /* Status Dot Animation */
+        .status-box { background: #111; padding: 15px; border-radius: 10px; margin: 20px 0; display: flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid #333; }
+        .dot { height: 12px; width: 12px; background-color: #1a8e1a; border-radius: 50%; display: inline-block; animation: blink 1.5s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+
+        .support-card { margin-top: 30px; text-align: left; }
+        .support-link { display: flex; align-items: center; background: #1a8e1a; color: white; text-decoration: none; padding: 15px; border-radius: 8px; margin-bottom: 15px; transition: 0.3s; font-weight: bold; }
+        .support-link:hover { background: #147014; transform: scale(1.02); }
+        
+        .info-text { color: #888; font-size: 14px; margin-top: 20px; }
+        .back-link { color: #1a8e1a; text-decoration: none; font-size: 14px; display: inline-block; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="live-container">
+        <h1>🔴 Live System Status</h1>
+        
+        <div class="status-box">
+            <span class="dot"></span>
+            <span style="font-weight: bold; letter-spacing: 1px;">ALL SERVERS: ONLINE</span>
+        </div>
+
+        <p style="color: #ccc;">Hamare sabhi RDP aur VPS nodes bilkul sahi kaam kar rahe hain.</p>
+
+        <div class="support-card">
+            <h3 style="text-align: center; color: #888;">Niche diye gaye buttons se turant help lein:</h3>
+            
+            <a href="https://t.me/YOUR_TELEGRAM_USERNAME" target="_blank" class="support-link">
+                ✈️ Contact on Telegram (Fastest)
+            </a>
+
+            <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" class="support-link" style="background: #25D366;">
+                💬 Message on WhatsApp
+            </a>
+        </div>
+
+        <p class="info-text">Average Response Time: <b>5-10 Minutes</b></p>
+        
+        <hr style="border: 0.5px solid #222; margin: 20px 0;">
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+
+</body>
+</html>
+
