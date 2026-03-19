@@ -19,7 +19,48 @@
   
 <header>
 
-<img src="IMG_20260316_121023_213.jpg" alt="hero-image
+<style>
+    /* Sabse upar ka main section jisme pic aur text hai */
+    .hero-container-new {
+        background: #000; /* Black background pic ke sath match karega */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Pic ki settings takki wo screen se bahar na jaye */
+    .main-hero-pic {
+        width: 100%;
+        max-width: 500px; /* Mobile ke liye perfect size */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Pic ke theek niche wala purple dabba */
+    .hero-info-box {
+        background: linear-gradient(135deg, #4b0082, #1a0033);
+        padding: 25px;
+        width: 100%;
+        max-width: 500px;
+        color: white;
+        border-radius: 0 0 20px 20px;
+        box-sizing: border-box; /* Padding ko manage karne ke liye */
+    }
+
+    .hero-info-box h1 { font-size: 1.6rem; margin: 0; }
+    .hero-info-box p { font-size: 0.9rem; opacity: 0.8; margin-top: 10px; }
+</style>
+
+<section class="hero-container-new">
+    <img src="IMG_20260316_121023_213.jpg" class="main-hero-pic" alt="Ravan Cloud">
+    
+    
+</section>
   
 <h1>Ravan Cloud</h1>
 
